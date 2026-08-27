@@ -153,7 +153,7 @@ export const RESOURCES_DATA = [
     title: 'Familias y JA discipulando y compartiendo cursos bíblicos',
     tags: ['MJ', 'MP', 'MAF'],
     badgeColor: '#D83729',
-    url: 'https://lavoz.org/cursos',
+    url: 'https://drive.google.com/drive/folders/10MGPH0Zlq98SHsKk7fd6KnnP9gR1NM2A?usp=sharing',
     buttonText: 'Recursos',
     isAvailable: true,
     type: 'Estudio Bíblico',
