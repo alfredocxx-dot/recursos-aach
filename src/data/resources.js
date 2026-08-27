@@ -139,7 +139,7 @@ export const RESOURCES_DATA = [
     title: 'Definición de campo nuevo por conquistar',
     tags: ['ES', 'MP'],
     badgeColor: '#EC9127',
-    url: 'https://drive.google.com/drive/folders/1XxXGCE0QAdmeXL1dwMoShaLDDASqJeK7',
+    url: 'https://drive.google.com/drive/folders/10MGPH0Zlq98SHsKk7fd6KnnP9gR1NM2A?usp=sharing',
     buttonText: 'Guía completa',
     isAvailable: true,
     type: 'Guía Estratégica',
