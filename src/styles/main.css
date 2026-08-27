@@ -99,16 +99,17 @@ body {
   text-transform: uppercase;
   color: var(--brand-gold);
   background: rgba(248, 186, 54, 0.12);
-  padding: 5px 14px;
+  padding: 6px 16px;
   border-radius: var(--radius-full);
   border: 1px solid rgba(248, 186, 54, 0.25);
   margin-bottom: 12px;
   backdrop-filter: blur(8px);
 }
 
-.header-badge svg {
-  width: 14px;
-  height: 14px;
+.iasd-badge-icon {
+  width: 16px;
+  height: 16px;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
 }
 
 .site-title {
@@ -133,38 +134,147 @@ body {
 /* Brand Logo Band */
 .logo-band {
   background: var(--card-white);
-  padding: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 16px 20px;
   border-bottom: 1px solid var(--border-light);
   box-shadow: var(--shadow-sm);
 }
 
-.logo-band img {
-  height: 54px;
-  width: auto;
+.logo-band-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.iasd-brand-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--brand-dark);
+}
+
+[data-theme="dark"] .iasd-brand-box {
+  color: #FFFFFF;
+}
+
+.iasd-logo-img {
+  width: 38px;
+  height: 38px;
+  color: var(--brand-orange);
+}
+
+.iasd-text-box {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.iasd-title-main {
+  font-family: 'Outfit', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.iasd-title-sub {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  opacity: 0.75;
+}
+
+.logo-divider {
+  width: 1px;
+  height: 40px;
+  background-color: var(--border-light);
+}
+
+.campaign-logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enciende-logo-img {
+  height: 56px;
+  max-width: 260px;
   object-fit: contain;
   transition: transform var(--transition-fast);
 }
 
-.logo-band img:hover {
+.enciende-logo-img:hover {
   transform: scale(1.03);
 }
 
-/* Search & Filter Toolbar Container */
+/* Sticky Controls & Filtering Toolbar */
 .sticky-toolbar {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-light);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 [data-theme="dark"] .sticky-toolbar {
-  background: rgba(24, 27, 34, 0.85);
+  background: rgba(24, 27, 34, 0.92);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Sticky Brand Header Bar */
+.sticky-brand-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 0 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .sticky-brand-bar {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.sticky-brand-logo {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+}
+
+.sticky-brand-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.sticky-brand-name {
+  color: var(--text-main);
+  font-family: 'Outfit', sans-serif;
+}
+
+.sticky-brand-sub {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sticky-iasd-tag {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--brand-orange);
+  background: var(--brand-orange-light);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
 }
 
 .toolbar-inner {
@@ -696,12 +806,35 @@ main {
 /* Footer */
 footer {
   text-align: center;
-  padding: 32px 20px;
+  padding: 36px 20px;
   background: var(--brand-dark);
   color: #A0AEC0;
   font-size: 12px;
   margin-top: auto;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.footer-iasd-logo {
+  width: 34px;
+  height: 34px;
+  color: var(--brand-orange);
+}
+
+.footer-church-title {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
 }
 
 footer strong {

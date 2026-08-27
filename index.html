@@ -24,7 +24,7 @@
   <header class="site-header">
     <div class="header-container">
       <div class="header-badge">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <img src="./logo-iasd.svg" alt="IASD Emblem" class="iasd-badge-icon" width="16" height="16">
         Asociación Altos de Chiapas &middot; IASD
       </div>
       <h1 class="site-title">Ruta Misionera 2026</h1>
@@ -34,12 +34,37 @@
 
   <!-- Logo Brand Band -->
   <div class="logo-band">
-    <img src="./logo-enciende-tu-fe.png" alt="Enciende tu Fe Logo AACH" width="220" height="54">
+    <div class="logo-band-container">
+      <div class="iasd-brand-box">
+        <img src="./logo-iasd.svg" alt="Iglesia Adventista del Séptimo Día" class="iasd-logo-img" width="38" height="38">
+        <div class="iasd-text-box">
+          <span class="iasd-title-main">IGLESIA ADVENTISTA</span>
+          <span class="iasd-title-sub">DEL SÉPTIMO DÍA</span>
+        </div>
+      </div>
+      <div class="logo-divider"></div>
+      <div class="campaign-logo-box">
+        <img src="./logo-enciende-tu-fe.png" alt="Enciende tu Fe Logo AACH" class="enciende-logo-img">
+      </div>
+    </div>
   </div>
 
   <!-- Sticky Controls & Filtering Toolbar -->
   <div class="sticky-toolbar">
     <div class="toolbar-inner">
+      <!-- Sticky Brand Bar (Visible when scrolling) -->
+      <div class="sticky-brand-bar">
+        <img src="./logo-enciende-tu-fe.png" alt="Enciende tu Fe Logo" class="sticky-brand-logo">
+        <div class="sticky-brand-text">
+          <span class="sticky-brand-name">Enciende tu Fe</span>
+          <span class="sticky-brand-sub">&middot; Ruta Misionera 2026</span>
+        </div>
+        <div class="sticky-iasd-tag">
+          <img src="./logo-iasd.svg" alt="IASD Emblem" width="16" height="16">
+          <span>AACH</span>
+        </div>
+      </div>
+
       <!-- Month Navigation Tabs -->
       <div class="month-tabs-wrapper">
         <div class="month-tabs" id="monthTabs">
@@ -86,8 +111,14 @@
 
   <!-- Footer -->
   <footer>
-    <p>Departamento de Evangelismo y Ministerios Personales &middot; <strong>Asociación Altos de Chiapas</strong></p>
-    <p style="margin-top: 6px; opacity: 0.75;">&copy; 2026 Recursos AACH. Todos los derechos reservados.</p>
+    <div class="footer-brand">
+      <img src="./logo-iasd.svg" alt="Iglesia Adventista del Séptimo Día" class="footer-iasd-logo" width="34" height="34">
+      <div>
+        <p class="footer-church-title">IGLESIA ADVENTISTA DEL SÉPTIMO DÍA</p>
+        <p>Departamento de Evangelismo y Ministerios Personales &middot; <strong>Asociación Altos de Chiapas</strong></p>
+      </div>
+    </div>
+    <p style="margin-top: 12px; opacity: 0.75;">&copy; 2026 Recursos AACH. Todos los derechos reservados.</p>
   </footer>
 
   <!-- Modal Details Overlay -->
