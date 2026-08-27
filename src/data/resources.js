@@ -133,9 +133,9 @@ export const RESOURCES_DATA = [
   },
   {
     id: 9,
-    month: 'sept',
-    monthLabel: 'Septiembre',
-    dateText: '26 sept, 3 oct',
+    month: 'oct',
+    monthLabel: 'Octubre',
+    dateText: '1 – 17 oct',
     title: 'Definición de campo nuevo por conquistar',
     tags: ['ES', 'MP'],
     badgeColor: '#EC9127',
