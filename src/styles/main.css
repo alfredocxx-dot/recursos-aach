@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap');
-
 :root {
   /* Brand Color Palette */
   --brand-orange: #EC9127;
@@ -106,10 +104,11 @@ body {
   backdrop-filter: blur(8px);
 }
 
-.iasd-badge-icon {
-  width: 16px;
-  height: 16px;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
+.header-iasd-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--brand-gold);
+  flex-shrink: 0;
 }
 
 .site-title {
@@ -134,7 +133,7 @@ body {
 /* Brand Logo Band */
 .logo-band {
   background: var(--card-white);
-  padding: 16px 20px;
+  padding: 18px 20px;
   border-bottom: 1px solid var(--border-light);
   box-shadow: var(--shadow-sm);
 }
@@ -145,14 +144,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 28px;
   flex-wrap: wrap;
 }
 
 .iasd-brand-box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   color: var(--brand-dark);
 }
 
@@ -160,10 +159,11 @@ body {
   color: #FFFFFF;
 }
 
-.iasd-logo-img {
-  width: 38px;
-  height: 38px;
+.iasd-logo-icon {
+  width: 42px;
+  height: 42px;
   color: var(--brand-orange);
+  flex-shrink: 0;
 }
 
 .iasd-text-box {
@@ -174,21 +174,26 @@ body {
 
 .iasd-title-main {
   font-family: 'Outfit', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
+  color: var(--brand-dark);
+}
+
+[data-theme="dark"] .iasd-title-main {
+  color: #FFFFFF;
 }
 
 .iasd-title-sub {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  opacity: 0.75;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--brand-orange);
 }
 
 .logo-divider {
   width: 1px;
-  height: 40px;
+  height: 42px;
   background-color: var(--border-light);
 }
 
@@ -199,14 +204,14 @@ body {
 }
 
 .enciende-logo-img {
-  height: 56px;
-  max-width: 260px;
+  height: 64px;
+  max-width: 290px;
   object-fit: contain;
   transition: transform var(--transition-fast);
 }
 
 .enciende-logo-img:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 /* Sticky Controls & Filtering Toolbar */
@@ -214,7 +219,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-light);

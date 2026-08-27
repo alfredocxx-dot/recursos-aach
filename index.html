@@ -15,6 +15,11 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="./logo-enciende-tu-fe.png">
 
+  <!-- Typography: Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="./src/styles/main.css">
 </head>
@@ -24,8 +29,16 @@
   <header class="site-header">
     <div class="header-container">
       <div class="header-badge">
-        <img src="./logo-iasd.svg" alt="IASD Emblem" class="iasd-badge-icon" width="16" height="16">
-        Asociación Altos de Chiapas &middot; IASD
+        <svg class="header-iasd-icon" viewBox="0 0 200 200" fill="currentColor">
+          <path d="M 30 155 Q 65 142 97 160 Q 100 161 103 160 Q 135 142 170 155 Q 168 163 103 178 Q 100 179 97 178 Q 32 163 30 155 Z"/>
+          <path d="M 34 147 Q 66 136 97 152 Q 100 153 103 152 Q 134 136 166 147 Q 164 153 103 167 Q 100 168 97 167 Q 36 153 34 147 Z" opacity="0.7"/>
+          <rect x="94" y="55" width="12" height="90" rx="2"/>
+          <rect x="62" y="80" width="76" height="12" rx="2"/>
+          <path d="M 45 138 C 30 105 38 72 58 48 C 50 68 48 92 60 115 C 65 125 72 133 80 138 Z"/>
+          <path d="M 155 138 C 170 105 162 72 142 48 C 150 68 152 92 140 115 C 135 125 128 133 120 138 Z"/>
+          <path d="M 100 22 C 112 40 110 60 100 78 C 90 60 88 40 100 22 Z"/>
+        </svg>
+        <span>Asociación Altos de Chiapas &middot; IASD</span>
       </div>
       <h1 class="site-title">Ruta Misionera 2026</h1>
       <p class="site-subtitle">Evangelismo y Ministerios Personales &middot; Julio &mdash; Noviembre 2026</p>
@@ -36,13 +49,23 @@
   <div class="logo-band">
     <div class="logo-band-container">
       <div class="iasd-brand-box">
-        <img src="./logo-iasd.svg" alt="Iglesia Adventista del Séptimo Día" class="iasd-logo-img" width="38" height="38">
+        <svg class="iasd-logo-icon" viewBox="0 0 200 200" fill="currentColor">
+          <path d="M 30 155 Q 65 142 97 160 Q 100 161 103 160 Q 135 142 170 155 Q 168 163 103 178 Q 100 179 97 178 Q 32 163 30 155 Z"/>
+          <path d="M 34 147 Q 66 136 97 152 Q 100 153 103 152 Q 134 136 166 147 Q 164 153 103 167 Q 100 168 97 167 Q 36 153 34 147 Z" opacity="0.7"/>
+          <rect x="94" y="55" width="12" height="90" rx="2"/>
+          <rect x="62" y="80" width="76" height="12" rx="2"/>
+          <path d="M 45 138 C 30 105 38 72 58 48 C 50 68 48 92 60 115 C 65 125 72 133 80 138 Z"/>
+          <path d="M 155 138 C 170 105 162 72 142 48 C 150 68 152 92 140 115 C 135 125 128 133 120 138 Z"/>
+          <path d="M 100 22 C 112 40 110 60 100 78 C 90 60 88 40 100 22 Z"/>
+        </svg>
         <div class="iasd-text-box">
           <span class="iasd-title-main">IGLESIA ADVENTISTA</span>
           <span class="iasd-title-sub">DEL SÉPTIMO DÍA</span>
         </div>
       </div>
+      
       <div class="logo-divider"></div>
+      
       <div class="campaign-logo-box">
         <img src="./logo-enciende-tu-fe.png" alt="Enciende tu Fe Logo AACH" class="enciende-logo-img">
       </div>
@@ -52,15 +75,20 @@
   <!-- Sticky Controls & Filtering Toolbar -->
   <div class="sticky-toolbar">
     <div class="toolbar-inner">
-      <!-- Sticky Brand Bar (Visible when scrolling) -->
+      <!-- Sticky Brand Banner -->
       <div class="sticky-brand-bar">
-        <img src="./logo-enciende-tu-fe.png" alt="Enciende tu Fe Logo" class="sticky-brand-logo">
+        <img src="./logo-enciende-tu-fe.png" alt="Enciende tu Fe" class="sticky-brand-logo">
         <div class="sticky-brand-text">
           <span class="sticky-brand-name">Enciende tu Fe</span>
           <span class="sticky-brand-sub">&middot; Ruta Misionera 2026</span>
         </div>
         <div class="sticky-iasd-tag">
-          <img src="./logo-iasd.svg" alt="IASD Emblem" width="16" height="16">
+          <svg viewBox="0 0 200 200" fill="currentColor" width="14" height="14">
+            <path d="M 30 155 Q 65 142 97 160 Q 100 161 103 160 Q 135 142 170 155 Q 168 163 103 178 Q 100 179 97 178 Q 32 163 30 155 Z"/>
+            <rect x="94" y="55" width="12" height="90" rx="2"/>
+            <rect x="62" y="80" width="76" height="12" rx="2"/>
+            <path d="M 100 22 C 112 40 110 60 100 78 C 90 60 88 40 100 22 Z"/>
+          </svg>
           <span>AACH</span>
         </div>
       </div>
@@ -112,7 +140,15 @@
   <!-- Footer -->
   <footer>
     <div class="footer-brand">
-      <img src="./logo-iasd.svg" alt="Iglesia Adventista del Séptimo Día" class="footer-iasd-logo" width="34" height="34">
+      <svg class="footer-iasd-logo" viewBox="0 0 200 200" fill="currentColor">
+        <path d="M 30 155 Q 65 142 97 160 Q 100 161 103 160 Q 135 142 170 155 Q 168 163 103 178 Q 100 179 97 178 Q 32 163 30 155 Z"/>
+        <path d="M 34 147 Q 66 136 97 152 Q 100 153 103 152 Q 134 136 166 147 Q 164 153 103 167 Q 100 168 97 167 Q 36 153 34 147 Z" opacity="0.7"/>
+        <rect x="94" y="55" width="12" height="90" rx="2"/>
+        <rect x="62" y="80" width="76" height="12" rx="2"/>
+        <path d="M 45 138 C 30 105 38 72 58 48 C 50 68 48 92 60 115 C 65 125 72 133 80 138 Z"/>
+        <path d="M 155 138 C 170 105 162 72 142 48 C 150 68 152 92 140 115 C 135 125 128 133 120 138 Z"/>
+        <path d="M 100 22 C 112 40 110 60 100 78 C 90 60 88 40 100 22 Z"/>
+      </svg>
       <div>
         <p class="footer-church-title">IGLESIA ADVENTISTA DEL SÉPTIMO DÍA</p>
         <p>Departamento de Evangelismo y Ministerios Personales &middot; <strong>Asociación Altos de Chiapas</strong></p>
