@@ -125,7 +125,7 @@ export const RESOURCES_DATA = [
     title: 'Graduación de cursos bíblicos',
     tags: ['MP', 'MJ', 'MM', 'MIA'],
     badgeColor: '#1C1C1C',
-    url: 'https://drive.google.com/file/d/1ykPbvZucs7cs_owKSFmi-lehg5-bJT8Q/view',
+    url: 'https://drive.google.com/drive/folders/17WQn8sqae2loIquaz7-e72jTB3ZQtmjZ',
     buttonText: 'Certificados',
     isAvailable: true,
     type: 'Certificados / Plantillas',
