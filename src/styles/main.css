@@ -133,7 +133,7 @@ body {
 /* Brand Logo Band */
 .logo-band {
   background: var(--card-white);
-  padding: 18px 20px;
+  padding: 16px 20px;
   border-bottom: 1px solid var(--border-light);
   box-shadow: var(--shadow-sm);
 }
@@ -144,74 +144,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 28px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
-.iasd-brand-box {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  color: var(--brand-dark);
+.iasd-logo-img {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+  transition: transform var(--transition-fast);
 }
 
-[data-theme="dark"] .iasd-brand-box {
-  color: #FFFFFF;
-}
-
-.iasd-logo-icon {
-  width: 42px;
-  height: 42px;
-  color: var(--brand-orange);
-  flex-shrink: 0;
-}
-
-.iasd-text-box {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.15;
-}
-
-.iasd-title-main {
-  font-family: 'Outfit', sans-serif;
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  color: var(--brand-dark);
-}
-
-[data-theme="dark"] .iasd-title-main {
-  color: #FFFFFF;
-}
-
-.iasd-title-sub {
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  color: var(--brand-orange);
+.iasd-logo-img:hover {
+  transform: scale(1.03);
 }
 
 .logo-divider {
   width: 1px;
-  height: 42px;
+  height: 40px;
   background-color: var(--border-light);
 }
 
-.campaign-logo-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .enciende-logo-img {
-  height: 64px;
-  max-width: 290px;
+  height: 56px;
+  max-width: 280px;
   object-fit: contain;
   transition: transform var(--transition-fast);
 }
 
 .enciende-logo-img:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 
 /* Sticky Controls & Filtering Toolbar */
