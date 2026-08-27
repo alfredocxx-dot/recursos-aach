@@ -41,11 +41,11 @@ export const RESOURCES_DATA = [
     title: 'Familias y JA compartiendo cursos bíblicos',
     tags: ['MP', 'MAF', 'MJ'],
     badgeColor: '#D83729',
-    url: 'https://lavoz.org/cursos',
+    url: 'https://clasebiblica.org/es/',
     buttonText: 'Cursos bíblicos',
     isAvailable: true,
     type: 'Estudio Bíblico',
-    description: 'Movilización de familias y jóvenes para impartir estudios bíblicos a través de las guías de La Voz de la Esperanza.'
+    description: 'Movilización de familias y jóvenes para impartir estudios bíblicos a través de las guías de Clase Bíblica.'
   },
   {
     id: 3,
